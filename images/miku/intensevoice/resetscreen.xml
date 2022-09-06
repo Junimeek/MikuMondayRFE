@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="resetscreen.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="reset screen0000" x="0" y="0" width="236" height="182"/>
+	<SubTexture name="reset screen0001" x="236" y="0" width="236" height="182"/>
+	<SubTexture name="reset screen0002" x="472" y="0" width="236" height="182"/>
+	<SubTexture name="reset screen0003" x="708" y="0" width="236" height="182"/>
+	<SubTexture name="reset screen0004" x="0" y="182" width="236" height="182"/>
+	<SubTexture name="reset screen0005" x="0" y="182" width="236" height="182"/>
+	<SubTexture name="reset screen0006" x="0" y="182" width="236" height="182"/>
+	<SubTexture name="reset screen0007" x="0" y="364" width="236" height="182"/>
+	<SubTexture name="reset screen0008" x="0" y="364" width="236" height="182"/>
+	<SubTexture name="reset screen0009" x="0" y="546" width="236" height="182"/>
+	<SubTexture name="reset screen0010" x="0" y="546" width="236" height="182"/>
+	<SubTexture name="reset screen0011" x="0" y="728" width="236" height="182"/>
+	<SubTexture name="reset screen0012" x="0" y="728" width="236" height="182"/>
+	<SubTexture name="reset screen0013" x="236" y="182" width="236" height="182"/>
+	<SubTexture name="reset screen0014" x="236" y="182" width="236" height="182"/>
+	<SubTexture name="reset screen0015" x="472" y="182" width="236" height="182"/>
+	<SubTexture name="reset screen0016" x="472" y="182" width="236" height="182"/>
+	<SubTexture name="reset screen0017" x="708" y="182" width="236" height="182"/>
+	<SubTexture name="reset screen0018" x="708" y="182" width="236" height="182"/>
+	<SubTexture name="reset screen0019" x="236" y="364" width="236" height="182"/>
+	<SubTexture name="reset screen0020" x="236" y="364" width="236" height="182"/>
+	<SubTexture name="reset screen0021" x="236" y="546" width="236" height="182"/>
+	<SubTexture name="reset screen0022" x="236" y="546" width="236" height="182"/>
+	<SubTexture name="reset screen0023" x="236" y="728" width="236" height="182"/>
+	<SubTexture name="reset screen0024" x="236" y="728" width="236" height="182"/>
+	<SubTexture name="reset screen0025" x="236" y="728" width="236" height="182"/>
+	<SubTexture name="reset screen0026" x="236" y="728" width="236" height="182"/>
+	<SubTexture name="reset screen0027" x="472" y="364" width="236" height="182"/>
+	<SubTexture name="reset screen0028" x="472" y="364" width="236" height="182"/>
+	<SubTexture name="reset screen0029" x="472" y="364" width="236" height="182"/>
+	<SubTexture name="reset screen0030" x="472" y="364" width="236" height="182"/>
+	<SubTexture name="reset screen0031" x="708" y="364" width="236" height="182"/>
+	<SubTexture name="reset screen0032" x="708" y="364" width="236" height="182"/>
+	<SubTexture name="reset screen0033" x="472" y="546" width="236" height="182"/>
+	<SubTexture name="reset screen0034" x="472" y="546" width="236" height="182"/>
+	<SubTexture name="reset screen0035" x="472" y="546" width="236" height="182"/>
+	<SubTexture name="reset screen0036" x="472" y="546" width="236" height="182"/>
+	<SubTexture name="reset screen0037" x="472" y="546" width="236" height="182"/>
+	<SubTexture name="reset screen0038" x="472" y="546" width="236" height="182"/>
+	<SubTexture name="reset screen0039" x="472" y="546" width="236" height="182"/>
+	<SubTexture name="reset screen0040" x="472" y="546" width="236" height="182"/>
+	<SubTexture name="reset screen0041" x="472" y="546" width="236" height="182"/>
+	<SubTexture name="reset screen0042" x="472" y="546" width="236" height="182"/>
+	<SubTexture name="reset screen0043" x="472" y="546" width="236" height="182"/>
+	<SubTexture name="reset screen0044" x="708" y="546" width="236" height="182"/>
+	<SubTexture name="reset screen0045" x="472" y="728" width="236" height="182"/>
+	<SubTexture name="reset screen0046" x="708" y="728" width="236" height="182"/>
+	<SubTexture name="reset screen0047" x="0" y="0" width="236" height="182"/>
+	<SubTexture name="reset screen0048" x="0" y="0" width="236" height="182"/>
+	<SubTexture name="reset screen0049" x="0" y="0" width="236" height="182"/>
+	<SubTexture name="reset screen0050" x="0" y="0" width="236" height="182"/>
+	<SubTexture name="reset screen0051" x="0" y="0" width="236" height="182"/>
+	<SubTexture name="reset screen0052" x="0" y="0" width="236" height="182"/>
+</TextureAtlas>

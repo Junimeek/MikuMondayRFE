@@ -1,0 +1,36 @@
+{
+    "antialiasing": true,
+    "comboAsset": "",
+    "graphicSize": 0.7,
+    "introAssets": [
+        "ready",
+        "set",
+        "go"
+    ],
+    "introSounds": [
+        "intro1",
+        "intro2",
+        "intro3",
+        "introGo"
+    ],
+    "isPixel": false,
+    "noteType": "projectdiva",
+    "numbers": [
+        "miku/uistuff/num0",
+        "miku/uistuff/num1",
+        "miku/uistuff/num2",
+        "miku/uistuff/num3",
+        "miku/uistuff/num4",
+        "miku/uistuff/num5",
+        "miku/uistuff/num6",
+        "miku/uistuff/num7",
+        "miku/uistuff/num8",
+        "miku/uistuff/num9"
+    ],
+    "ratingAssets": [
+        "miku/uistuff/sick",
+        "miku/uistuff/good",
+        "miku/uistuff/bad",
+        "miku/uistuff/shit"
+    ]
+}

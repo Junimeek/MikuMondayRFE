@@ -1,0 +1,49 @@
+{
+    "anims": [
+        {
+			"AnimLOOP": false,
+			"Offsets": [22, 2],
+			"AnimFPS": 24,
+			"Animation": "singLEFT",
+			"AnimIndices": [],
+			"AnimName": "Miku Sing Note LEFT"
+		},
+		{
+			"AnimLOOP": false,
+			"Offsets": [-20, -41],
+			"AnimFPS": 24,
+			"Animation": "singDOWN",
+			"AnimIndices": [],
+			"AnimName": "Miku Sing Note DOWN"
+		},
+		{
+			"AnimLOOP": false,
+			"Offsets": [8, 47],
+			"AnimFPS": 24,
+			"Animation": "singUP",
+			"AnimIndices": [],
+			"AnimName": "Miku Sing Note UP"
+		},
+		{
+			"AnimLOOP": false,
+			"Offsets": [-21, 23],
+			"AnimFPS": 24,
+			"Animation": "singRIGHT",
+			"AnimIndices": [],
+			"AnimName": "Miku Sing Note RIGHT"
+		},
+		{
+			"AnimLOOP": false,
+			"Offsets": [0, -2],
+			"AnimFPS": 24,
+			"Animation": "idle",
+			"AnimIndices": [],
+			"AnimName": "Miku idle dance"
+		}
+    ],
+	"CharacterAntialiasing": true,
+    "CharacterImage": "images/characters/hatsunemiku",
+    "CharacterPosition": [0, 0],
+    "CharacterFlipX": false,
+	"CharacterScale": 1
+}

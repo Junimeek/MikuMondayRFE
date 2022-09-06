@@ -1,0 +1,49 @@
+{
+    "anims": [
+        {
+			"AnimLOOP": false,
+			"Offsets": [34, 1],
+			"AnimFPS": 24,
+			"Animation": "singLEFT",
+			"AnimIndices": [],
+			"AnimName": "rin NOTE RIGHT0"
+		},
+		{
+			"AnimLOOP": false,
+			"Offsets": [0, 0],
+			"AnimFPS": 24,
+			"Animation": "idle",
+			"AnimIndices": [3, 4, 5, 6, 7, 8, 1, 2],
+			"AnimName": "rin idle dance0"
+		},
+		{
+			"AnimLOOP": false,
+			"Offsets": [12, -46],
+			"AnimFPS": 24,
+			"Animation": "singDOWN",
+			"AnimIndices": [],
+			"AnimName": "rin NOTE DOWN0"
+		},
+		{
+			"AnimLOOP": false,
+			"Offsets": [24, 35],
+			"AnimFPS": 24,
+			"Animation": "singUP",
+			"AnimIndices": [],
+			"AnimName": "rin NOTE UP0"
+		},
+		{
+			"AnimLOOP": false,
+			"Offsets": [-16, 0],
+			"AnimFPS": 24,
+			"Animation": "singRIGHT",
+			"AnimIndices": [],
+			"AnimName": "rin NOTE LEFT0"
+		}
+    ],
+	"CharacterAntialiasing": true,
+    "CharacterImage": "images/characters/kagaminerin",
+    "CharacterPosition": [0, 0],
+    "CharacterFlipX": true,
+	"CharacterScale": 1
+}

@@ -1,0 +1,15 @@
+I did not make any of the sprites that are featured in this mod. Everything made was made by whoever made them lmao
+
+same goes for the original music
+
+also, currently there are two unused/incomplete playable songs: ievan-polkka-tutorial, and kokoro. if you wanna play those, just add this code to the freeplay json [data\freeplaySongList.json]:
+        
+	{
+            "songDatas": ["ievan-polkka-tutorial", "kokoro"],
+            "songNames": ["Ievan Polkka Tutorial", "Kokoro"],
+	    "diffs": [["EASY", "NORMAL", "HARD", "EXTREME"]],
+            "weekNumber": 38,
+            "characterIcons": ["miku", "album-kokoro"]
+        }
+
+	and check those commas after the } to make sure they're correct.
