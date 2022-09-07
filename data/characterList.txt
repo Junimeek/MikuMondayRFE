@@ -3,5 +3,4 @@ rin
 rollingMiku
 rollingMikuColor
 rollingBf
-rollingBf2
 rollingBfColor
