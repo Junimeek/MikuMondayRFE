@@ -1,16 +1,16 @@
 function create()
     setDefaultCamZoom(0.75)
 
-    makeSprite("space", "images/miku/melt/spacebg.png", -250, -150, true)
+    makeSprite("space", "images/miku/hall/spacebg.png", -250, -150, true)
     setSpriteScrollFactor("space", 0.4 , 0.4)
     addSprite("space")
 
-    makeSprite("back", "images/miku/melt/meltstageback.png", -30, -330, true)
+    makeSprite("back", "images/miku/hall/meltstageback.png", -30, -330, true)
     setSpriteScale("back", 1, 1)
     setSpriteScrollFactor("back", 0.8, 0.8)
     addSprite("back")
 
-    makeSprite("front", "images/miku/melt/meltfloor.png", -350, 370, true)
+    makeSprite("front", "images/miku/hall/meltfloor.png", -350, 370, true)
     setSpriteScale("front", 1, 1)
     setSpriteScrollFactor("front", 1, 1)
     addSprite("front")

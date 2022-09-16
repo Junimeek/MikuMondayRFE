@@ -1,11 +1,8 @@
-local scMod = 8
-
-
 function create()
     setDefaultCamZoom(0.8)
 
     makeSprite("sky", "images/miku/sakura/weebSky.png", 800, 450, false)
-    setSpriteScale("sky", scMod, scMod)
+    setSpriteScale("sky", 8, 8)
     setSpriteScrollFactor("sky", 0.1, 0.1)
     addSprite("sky")
 
@@ -19,13 +16,13 @@ function create()
     setSpriteScrollFactor("street", 1, 1)
     addSprite("street")
 
-    makeSprite("treebark", "images/miku/sakura/weebTreesBack.png", 670, 230, false)
-    setSpriteScale("treebark", scMod, scMod)
+    makeSprite("treebark", "images/miku/sakura/weebTreesBack.png", 700, 240, false)
+    setSpriteScale("treebark", 8, 8)
     setSpriteScrollFactor("treebark", 0.95, 0.95)
     addSprite("treebark")
 
-    makeAnimatedPackerSprite("trees", "images/miku/sakura/weebTrees", 500, 100, false)
-    setSpriteScale("trees", scMod, scMod)
+    makeAnimatedPackerSprite("trees", "images/miku/sakura/weebTrees", 530, 90, false)
+    setSpriteScale("trees", 8, 8)
     setSpriteScrollFactor("trees", 0.9, 0.9)
     addSprite("trees", true)
     addSpritePrefixAnimation("trees", "treeLoop", "trees_", 12, true)
@@ -39,7 +36,7 @@ function postCreate()
     setSpriteScrollFactor("gfSprite", 1, 1)
 
     makeAnimatedSparrowSprite("petals", "images/miku/sakura/petals", 666, 400, false)
-    setSpriteScale("petals", scMod, scMod)
+    setSpriteScale("petals", 8, 8)
     setSpriteScrollFactor("petals", 0.3, 0.3)
     addSprite("petals", true)
     addSpritePrefixAnimation("petals", "petalLoop", "PETALS ALL", 24, true)
