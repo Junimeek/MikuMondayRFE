@@ -1,11 +1,11 @@
 {
     "weeks": [
         {
-            "songDatas": ["melt", "world-is-mine", "sakura-no-ame", "rolling-girl", "intense-voice"],
-            "songNames": ["Melt", "The World is Mine", "Sakura no Ame", "Rolling Girl", "Intense Voice"],
+            "songDatas": ["melt", "world-is-mine", "sakura-no-ame", "secret-police", "rolling-girl", "intense-voice"],
+            "songNames": ["Melt", "The World is Mine", "Sakura no Ame", "Secret Police", "Rolling Girl", "Intense Voice"],
 	    "diffs": [["EASY", "NORMAL", "HARD", "EXTREME"]],
             "weekNumber": 39,
-            "characterIcons": ["album-melt", "album-worldismine", "album-sakuranoame", "album-rollinggirl", "album-intensevoice"]
+            "characterIcons": ["album-melt", "album-worldismine", "album-sakuranoame", "album-secretpolice", "album-rollinggirl", "album-intensevoice"]
         },
         {
             "songDatas": ["love-is-war", "romeo-and-cinderella", "secret-garden", "disappearance"],

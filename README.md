@@ -1,6 +1,8 @@
 # MikuMondayRFE
 this is a mod ive created for Friday Night Funkin' ReFunked Engine (https://github.com/pahaze/refunked).
 
+please dont download the source code, thats a mess, unless you like looking at my terrible code for some reason lmao
+
 # Credits
 Credit where credit is due, because I did not make every asset featured in this mod.
 
