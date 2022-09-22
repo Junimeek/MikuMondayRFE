@@ -1,5 +1,6 @@
 # Miku Monday
-This is a mod I've created for Friday Night Funkin' ReFunked Engine (https://github.com/pahaze/refunked).\
+This is a mod I've created for Friday Night Funkin' ReFunked Engine (https://github.com/pahaze/refunked).
+
 Basically, it's miku, and uh, you sing against her, or something like that.
 
 please dont download the source code, thats a mess, unless you like looking at my terrible code for some reason lmao
@@ -26,5 +27,6 @@ Credit where credit is due, because I did not make every asset featured in this 
 - Miku Mod by evdial and GenoX: https://gamebanana.com/mods/44307 [older assets used]
 - Rolling Again by GARBIE PATTIE: https://gamebanana.com/mods/364001
 - Week 6 in HD by Koifee: https://gamebanana.com/mods/291993
+- Arcade Showdown - VS. Kapi by paperkitty: https://gamebanana.com/mods/44683
 
-If you have any problems with your work being featured, let me know via opening an issue, or messaging me on Discord (my tag is Junimeek#5738).
+If you have any problems with your work being featured, let me know via messaging me on Discord (preferred; my tag is Junimeek#5738), messaging me on Twitter (@ThePjDj06), or opening an issue.

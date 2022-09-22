@@ -42,3 +42,15 @@ function postCreate()
     addSpritePrefixAnimation("petals", "petalLoop", "PETALS ALL", 24, true)
     playSpriteAnimation("petals", "petalLoop")
 end
+
+function stepHit()
+    if curStep == 1090 then
+        makeSprite("title", "images/miku/namegrafix/sakura-no-ame.png", 250, 80, true)
+        setSpriteScale("title", 1, 1)
+        setSpriteScrollFactor("title", 0, 0)
+        addSprite("title")
+        setSpriteAlpha("title", 0)
+    elseif curStep == 1092 then
+        performSpriteAlphaTween("fadein", "title", 1, 1.3)
+    end
+end
