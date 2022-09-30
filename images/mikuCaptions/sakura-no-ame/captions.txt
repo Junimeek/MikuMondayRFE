@@ -1,0 +1,30 @@
+12-44: sorezore no basho e tabidattemo
+44-76: tomodachi da   kiku made mo nai jan
+140-172: tsuchibokori age kisotta koutei
+204-236: tsukue no ue ni kaita rakugaki
+268-300: hakushi no touji ni wa tsutaekirenai
+336-364: osanakute kizutsuke mo shita
+364-416: bokura wa sukoshi kurai otona ni nareta no ka na
+430-460: kyoushitsu no mado kara sakura no ame
+460-494: fuwari tenohira   kokoro ni yoseta
+524-558: sora ni hanatou   wasurenaide
+558-568: ima wa mada...   chii-
+576-590: -a da to shitemo
+
+pv_710.lyric.022=bokura wa hitori janai
+pv_710.lyric.023=ikusen no manabiya no naka de
+pv_710.lyric.024=bokura ga meguriaeta kiseki
+pv_710.lyric.025=ikutsu toshi o tottemo kawaranaide
+pv_710.lyric.026=sono yasashii egao
+pv_710.lyric.027=kyoushitsu no mado kara sakura no ame
+pv_710.lyric.028=fuwari tenohira
+pv_710.lyric.029=kokoro ni yoseta
+pv_710.lyric.030=minna atsumete dekita hanataba o
+pv_710.lyric.031=sora ni hanatou
+pv_710.lyric.032=wasurenaide
+pv_710.lyric.033=ima wa mada...
+pv_710.lyric.034=chiisana hanabira da to shitemo
+pv_710.lyric.035=bokura wa hitori janai
+pv_710.lyric.036=itsuka mata...
+pv_710.lyric.037=ookina hanabira o sakase
+pv_710.lyric.038=bokura wa koko de aou
