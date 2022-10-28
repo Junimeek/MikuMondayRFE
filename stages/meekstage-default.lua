@@ -16,4 +16,16 @@ function postCreate()
     setActorPosition("opponent", 120, 30)
     setActorPosition("boyfriend", 960, 340)
     setActorPosition("girlfriend", 540, 0)
+
+    makeAnimatedSparrowSprite("simps", "images/miku/bunch_of_simps", -35, 550, true)
+    addSpritePrefixAnimation("simps", "bounce", "Downer Crowd Bob", 24, false)
+    setSpriteScale("simps", 1.23, 1.23)
+    setSpriteScrollFactor("simps", 1.2, 0.7)
+    addSprite("simps", true)
+end
+
+function beatHit()
+    if curBeat % 2 == 1 then
+        playSpriteAnimation("simps", "bounce")
+    end
 end

@@ -42,4 +42,10 @@ function stepHit()
     if curStep == 400 or curStep == 528 or curStep == 1152 or curStep == 1756 then
         playActorAnimation("boyfriend", "hey")
     end
+
+    if curStep == 1312 or curStep == 1793 then
+        setActorSpeed("girlfriend", 2)
+    elseif curStep == 1345 then
+        setActorSpeed("girlfriend", 1)
+    end
 end

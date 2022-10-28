@@ -52,7 +52,10 @@ function stepHit()
         performSpriteYTween("movedown", "ryo", 150, 3, "cubeout")
         performSpriteAlphaTween("titlefadein", "sekai", 1, 1)
         performSpriteAlphaTween("artistfadein", "ryo", 1, 1)
-    elseif curStep == 41 then
+    elseif curStep == 40 then
+        performSpriteAlphaTween("titlefadeout", "sekai", 0, 0.2)
+        performSpriteAlphaTween("artistfadeout", "ryo", 0, 0.2)
+    elseif curStep == 60 then
         destroySprite("sekai")
         destroySprite("ryo")
     elseif curStep == 224 or curStep == 1312 or curStep == 1792 then

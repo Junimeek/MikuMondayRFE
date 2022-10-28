@@ -69,6 +69,7 @@ end
 
 function stepHit()
     if curStep == 16 then
+        --setCameraBGColor("camGame", "#57ed89")
         performSpriteAlphaTween("logoin", "logo", 1, 0.1)
     elseif curStep == 78 then
         performSpriteAlphaTween("logoout", "logo", 0, 0.1)
@@ -83,7 +84,7 @@ function stepHit()
         performSpriteAlphaTween("whitein", "overwhite", 1, 0.1)
         performSpriteAlphaTween("reachin", "reach", 1, 0.1)
         playSpriteAnimation("reach", "reach")
-    elseif curStep == 1667 then
+    elseif curStep == 1677 then
         changeActor("opponent", "rollingMikuColor", true, true, true)
         changeActor("boyfriend", "rollingBfColor", true, true, true)
     elseif curStep == 1680 then

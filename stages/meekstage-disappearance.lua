@@ -49,11 +49,11 @@ function beatHit()
     --elseif curBeat == 2 or curBeat == 32 or curBeat == 52 or curBeat == 72 or curBeat == 92 then
         --setSpriteVisibility("overlay2", true)
         --performSpriteYTween("goinup", "overlay2", -1200, 4.20)
-    elseif curBeat == 67 then
+    elseif curBeat == 68 then
         setSpriteAlpha("overlay1", 0)
         setSpriteAlpha("overlay2", 0)
         setSpriteAlpha("overlay3", 0)
-    elseif curBeat == 291 then
+    elseif curBeat == 292 then
         setSpriteAlpha("overlay1", 100)
         setSpriteAlpha("overlay2", 100)
         setSpriteAlpha("overlay3", 100)
@@ -61,7 +61,7 @@ function beatHit()
 end
 
 function stepHit()
-    if curStep == 1905 then
+    if curStep == 1906 then
         destroySprite("back")
         destroySprite("front")
         setSpriteVisibility("bfSprite", false)
