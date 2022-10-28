@@ -9,7 +9,7 @@ please dont download the source code, thats a mess, unless you like looking at m
 Songs that are "officially" implemented:
 - Melt [done]
 - The World is Mine [done]
-- Sakura no Ame [wip]
+- Sakura no Ame [done]
 - Secret Police [wip]
 - Rolling Girl [done]
 - The Intense Voice of Hatsune Miku [done]
