@@ -33,4 +33,4 @@ Credit where credit is due, because I did not make every asset featured in this 
 - Arcade Showdown - VS. Kapi by paperkitty: https://gamebanana.com/mods/44683
 - pahaze - For being a good sport and helping me whenever i needed it <3
 
-If you have any problems with your work being featured, let me know via messaging me on Discord (preferred; my tag is Junimeek#5738), messaging me on Twitter (@ThePjDj06), or opening an issue.
+If you have any problems with your work being featured, let me know via messaging me on Discord (preferred; my tag is Junimeek#5738), messaging me on Twitter (@junimeek39), or opening an issue.
