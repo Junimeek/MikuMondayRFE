@@ -1,1 +1,3 @@
 just drag the MikuMondayRFE folder into the "mods" folder. and thats it
+
+also this isnt a psych engine mod, its a refunked mod. more info on the github you shouldve downloaded this mod from ( https://github.com/Junimeek/MikuMondayRFE )

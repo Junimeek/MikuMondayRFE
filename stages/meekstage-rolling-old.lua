@@ -4,18 +4,13 @@ function create()
 
     makeActor("rollingMikuColor", false, -210, -130)
     makeActor("rollingBfColor", true, 690, -10)
-
-    addActor("rollingBfColor")
-    addActor("rollingMikuColor")
-    
 end
 
 function postCreate()
-    setCameraPosition(930, 170)
-    
     setActorPosition("opponent", -210, -130)
     setActorPosition("boyfriend", 690, -10)
     setSpriteVisibility("gfSprite", false)
+    setCameraPosition(930, 170)
     setSpriteScrollFactor("bfSprite", 0)
     setSpriteScrollFactor("dadSprite", 0)
     setActorScrollFactor("rollingBfColor", 0)
@@ -23,18 +18,15 @@ function postCreate()
 
     makeSprite("logo", "images/miku/namegrafix/rollinggirl.png", 260, 310, true)
     addSprite("logo")
-    --centerSpriteXY("logo", true, false)
     setSpriteScrollFactor("logo", 0)
-    setSpriteAlpha("logo", 0)
-
     makeSprite("pvcredit", "images/miku/namegrafix/rollinggirl-pvcredit.png", 260, 310, true)
     addSprite("pvcredit")
-    centerSpriteXY("pvcredit", true, false)
     setSpriteScrollFactor("pvcredit", 0)
+    setSpriteAlpha("logo", 0)
     setSpriteAlpha("pvcredit", 0)
 
-
     -- stuff related to the transition to green
+
     makeSprite("overwhite", "images/miku/rolling/whiteSquare.png", 640, 380, false)
     setSpriteScrollFactor("overwhite", 0, 0)
     setSpriteScale("overwhite", 91, 55)
@@ -60,7 +52,6 @@ function postCreate()
     addSprite("hug")
     setSpriteVisibility("hug", false)
 
-
     -- vignette and overlay thing
     makeSprite("vignette", "images/miku/rolling/vignette.png", 0, 0, true)
     setSpriteScrollFactor("vignette", 0, 0)
@@ -78,6 +69,7 @@ end
 
 function stepHit()
     if curStep == 16 then
+        --setCameraBGColor("camGame", "#57ed89")
         performSpriteAlphaTween("logoin", "logo", 1, 0.1)
     elseif curStep == 78 then
         performSpriteAlphaTween("logoout", "logo", 0, 0.1)
@@ -92,6 +84,9 @@ function stepHit()
         performSpriteAlphaTween("whitein", "overwhite", 1, 0.1)
         performSpriteAlphaTween("reachin", "reach", 1, 0.1)
         playSpriteAnimation("reach", "reach")
+    elseif curStep == 1677 then
+        changeActor("opponent", "rollingMikuColor", true, true, true)
+        changeActor("boyfriend", "rollingBfColor", true, true, true)
     elseif curStep == 1680 then
         setCameraBGColor("camGame", "#57ed89")
         setSpriteAlpha("overgreen", 1)
@@ -109,23 +104,11 @@ function stepHit()
         destroySprite("hug")
     elseif curStep == 2184 then
         setCameraBGColor("camGame", "#000000")
+        setActorVisibility("dadSprite", false)
+        setActorVisibility("rollingMikuColor", false)
+        setActorVisibility("bfSprite", false)
+        setActorVisibility("rollingBfColor", false)
         destroySprite("vignette")
-    end
-
-    if curStep == 1 then
-        --setCameraBGColor("camGame", "#57ed89")
-        setActorVisibility("rollingMikuColor", false)
-        setActorVisibility("rollingBfColor", false)
-    elseif curStep == 1680 then
-        changeTargetActor("boyfriend", "rollingBfColor", true)
-        changeTargetActor("opponent", "rollingMikuColor", true)
-        setActorVisibility("rollingBfColor", true)
-        setActorVisibility("rollingMikuColor", true)
-        setActorVisibility("boyfriend", false)
-        setActorVisibility("opponent", false)
-    elseif curStep == 2184 then
-        setActorVisibility("rollingMikuColor", false)
-        setActorVisibility("rollingBfColor", false)
     end
 end
 
