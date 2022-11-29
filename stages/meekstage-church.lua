@@ -52,6 +52,7 @@ function stepHit()
         performSpriteYTween("movedown", "ryo", 150, 3, "cubeout")
         performSpriteAlphaTween("titlefadein", "sekai", 1, 1)
         performSpriteAlphaTween("artistfadein", "ryo", 1, 1)
+        --setActorSpeed("girlfriend", 2)
     elseif curStep == 40 then
         performSpriteAlphaTween("titlefadeout", "sekai", 0, 0.2)
         performSpriteAlphaTween("artistfadeout", "ryo", 0, 0.2)
