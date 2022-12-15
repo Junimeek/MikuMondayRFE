@@ -1,3 +1,6 @@
+## Quick note
+ReFunked Engine is currently undergoing a major code rewrite. As of right now, the latest build does not have the modding capabilities required to run this mod. Please be patient in waiting for new versions, as RFE is being worked on by one single guy who just codes in his free time ;-;
+
 # Miku Monday
 This is a mod I've created for Friday Night Funkin' ReFunked Engine (https://github.com/pahaze/refunked).
 
