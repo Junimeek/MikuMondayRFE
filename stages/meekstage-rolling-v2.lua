@@ -22,40 +22,57 @@ function postCreate()
     setActorScrollFactor("rollingMikuColor", 0)
 
     makeSprite("logo", "images/miku/namegrafix/rollinggirl.png", 260, 310, true)
-    SetSpriteData("logo", 0, 0, 1, 1, true)
+    addSprite("logo")
+    --centerSpriteXY("logo", true, false)
+    setSpriteScrollFactor("logo", 0)
     setSpriteAlpha("logo", 0)
 
     makeSprite("pvcredit", "images/miku/namegrafix/rollinggirl-pvcredit.png", 260, 310, true)
-    SetSpriteData("pvcredit", 0, 0, 1, 1, true)
+    addSprite("pvcredit")
     centerSpriteXY("pvcredit", true, false)
+    setSpriteScrollFactor("pvcredit", 0)
     setSpriteAlpha("pvcredit", 0)
 
 
     -- stuff related to the transition to green
     makeSprite("overwhite", "images/miku/rolling/whiteSquare.png", 640, 380, false)
-    SetSpriteData("overwhite", 0, 0, 91, 55, true)
+    setSpriteScrollFactor("overwhite", 0, 0)
+    setSpriteScale("overwhite", 91, 55)
+    addSprite("overwhite")
     setSpriteAlpha("overwhite", 0)
 
     makeSprite("overgreen", "images/miku/rolling/greenSquare.png", 640, 380, false)
-    SetSpriteData("overgreen", 0, 0, 91, 55, false)
+    setSpriteScrollFactor("overgreen", 0, 0)
+    setSpriteScale("overgreen", 91, 55)
+    addSprite("overgreen")
+    setSpriteVisibility("overgreen", false)
 
     makeAnimatedSparrowSprite("reach", "images/miku/rolling/BF REACH", 540, 300, true)
     addSpritePrefixAnimation("reach", "reach", "BF REACH SMOL", 24, false)
-    SetSpriteData("reach", 0, 0, 1.4, 1.4, true, true)
+    setSpriteScrollFactor("reach", 0, 0)
+    setSpriteScale("reach", 1.4, 1.4)
+    addSprite("reach", true)
     setSpriteAlpha("reach", 0)
 
     makeSprite("hug", "images/miku/rolling/hug.png", 330, 130, true)
-    SetSpriteData("hug", 0, 0, 0.8, 0.8, false)
+    setSpriteScrollFactor("hug", 0)
+    setSpriteScale("hug", 0.8, 0.8)
+    addSprite("hug")
+    setSpriteVisibility("hug", false)
 
 
     -- vignette and overlay thing
     makeSprite("vignette", "images/miku/rolling/vignette.png", 0, 0, true)
-    SetSpriteData("vignette", 0, 0, 1.2, 1.2)
+    setSpriteScrollFactor("vignette", 0, 0)
+    setSpriteScale("vignette", 1.2, 1.2)
+    addSprite("vignette")
 
     makeAnimatedSparrowSprite("overlay", "images/miku/rolling/overlay", 120, -30, true)
     addSpritePrefixAnimation("overlay", "vcr", "idle", 24, true)
-    SetSpriteData("overlay", 0, 0, 1.4, 1.3, true, true)
+    setSpriteScrollFactor("overlay", 0, 0)
+    addSprite("overlay", true)
     setSpriteBlendMode("overlay", "darken")
+    setSpriteScale("overlay", 1.4, 1.3)
     playSpriteAnimation("overlay", "vcr")
 end
 
@@ -112,29 +129,18 @@ function stepHit()
     end
 end
 
+local glanceValue = 69
+
 function beatHit()
-    if curBeat % 2 == 0 then
-        if curBeat >= 282 and curBeat < 307 then
-            playActorAnimation("boyfriend", "glanceLoop")
-        elseif curBeat == 280 then
-            playActorAnimation("boyfriend", "glance")
-        end  
-    end
-end
-
-function SetSpriteData(spriteName, scrollX, scrollY, scaleX, scaleY, isVisible, isActive)
-    setSpriteScrollFactor(spriteName, scrollX, scrollY)
-    setSpriteScale(spriteName, scaleX, scaleY)
-
-    if isActive == true then
-        addSprite(spriteName, true)
-    else
-        addSprite(spriteName, false)
+    if curBeat == 280 then
+        playActorAnimation("boyfriend", "glance")
+    elseif curBeat == 282 then
+        glanceValue = 420
+    elseif curBeat == 307 then
+        glanceValue = 69
     end
 
-    if isVisible == false then
-        setSpriteVisibility(spriteName, false)
-    else
-        setSpriteVisibility(spriteName, true)
+    if glanceValue == 420 then
+        playActorAnimation("boyfriend", "glanceLoop")
     end
 end

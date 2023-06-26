@@ -25,12 +25,12 @@ function postCreate()
 end
 
 function beatHit()
-    if curBeat == 200 or curBeat == 280 or curBeat == 392 then
-        playActorAnimation("boyfriend", "hey")
+    if curBeat == 196 or curBeat == 276 or curBeat == 356 then
+        playActorAnimation("boyfriend", "hey", true)
     end
 
     if curBeat % 2 == 1 then
-        playSpriteAnimation("simps", "bounce")
+        playSpriteAnimation("simps", "bounce", true)
     end
 end
 

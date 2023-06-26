@@ -99,8 +99,8 @@ function stepHit()
         setSpriteAlpha("screens2", 0)
     elseif curStep == 816 then -- meek on
         setSpriteAlpha("overblack", 0)
+        performSpriteAlphaTween("gfon", "gfSprite", 0.15, 0.1)
         meekOn()
-        gfOn()
     elseif curStep == 830 then
         bfOn()
         meekOff()
@@ -113,17 +113,25 @@ function stepHit()
     elseif curStep == 876 then
         meekOn()
     elseif curStep == 880 then -- both off
-        meekOff()
-        bfOff()
-        gfOff()
+        performSpriteAlphaTween("meekoff2", "dadSprite", 0, 0.1)
+        performSpriteAlphaTween("meekgroff2", "spotmeekgr", 0, 0.1)
+        performSpriteAlphaTween("meekspotoff2", "spotmeek", 0, 0.1)
+        performSpriteAlphaTween("bfoff2", "bfSprite", 0, 0.1)
+        performSpriteAlphaTween("bfgroff2", "spotbfgr", 0, 0.1)
+        performSpriteAlphaTween("bfspotoff2", "spotbf", 0, 0.1)
+        performSpriteAlphaTween("gfoff", "gfSprite", 0, 0.1)
     elseif curStep == 884 then
         performSpriteAlphaTween("s1o", "screens1", 1, 0.1)
     elseif curStep == 900 then
         performSpriteAlphaTween("s2o", "screens2", 0.9, 0.1)
     elseif curStep == 912 then
-        meekOn()
-        bfOn()
-        gfOn()
+        performSpriteAlphaTween("meekon2", "dadSprite", 1, 0.1)
+        performSpriteAlphaTween("meekgron2", "spotmeekgr", 1, 0.1)
+        performSpriteAlphaTween("meekspoton2", "spotmeek", 1, 0.1)
+        performSpriteAlphaTween("bfon2", "bfSprite", 1, 0.1)
+        performSpriteAlphaTween("bfgron2", "spotbfgr", 1, 0.1)
+        performSpriteAlphaTween("bfspoton2", "spotbf", 1, 0.1)
+        performSpriteAlphaTween("gfon2", "gfSprite", 0.15, 0.1)
     elseif curStep == 936 then
         setDefaultCamZoom(0.8)
         setSpriteVisibility("back", true)
@@ -142,7 +150,6 @@ function stepHit()
         resetCameraPosition(0, 0)
     end
 end
-
 
 function meekOn()
     performSpriteAlphaTween("meekon", "dadSprite", 1, 0.1)
@@ -166,12 +173,4 @@ function bfOff()
     performSpriteAlphaTween("bfoff", "bfSprite", 0, 0.1)
     performSpriteAlphaTween("bfgroff", "spotbfgr", 0, 0.1)
     performSpriteAlphaTween("bfspotoff", "spotbf", 0, 0.1)
-end
-
-function gfOn()
-    performSpriteAlphaTween("gfon", "gfSprite", 0.15, 0.1)
-end
-
-function gfOff()
-    performSpriteAlphaTween("gfoff", "gfSprite", 0, 0.1)
 end

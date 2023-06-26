@@ -10,16 +10,16 @@ please dont download the source code, thats a mess, unless you like looking at m
 
 ## Progress
 Songs that are "officially" implemented:
-- Melt [done]
+- Melt [done; being reworked]
 - The World is Mine [done]
 - Sakura no Ame [done]
-- Secret Police [wip]
+- Romeo and Cinderella [wip]
 - Rolling Girl [done]
 - The Intense Voice of Hatsune Miku [done]
 
 Other songs that exist in the game's source code, but has not been implemented yet:
 - Love is War
-- Romeo and Cinderella
+- Secret Police
 - The secret garden
 - The Disappearance of Hatsune Miku
 
@@ -36,4 +36,4 @@ Credit where credit is due, because I did not make every asset featured in this 
 - Arcade Showdown - VS. Kapi by paperkitty: https://gamebanana.com/mods/44683
 - pahaze - For being a good sport and helping me whenever i needed it <3
 
-If you have any problems with your work being featured, let me know via messaging me on Discord (preferred; my tag is Junimeek#5738), messaging me on Twitter (@junimeek39), or opening an issue.
+If you have any problems with your work being featured, let me know via messaging me on Discord (preferred method; my handle is @junimeek), messaging me on Twitter (@junimeek39), or opening an issue.

@@ -1,18 +1,18 @@
 {
     "weeks": [
         {
-            "songDatas": ["melt", "world-is-mine", "sakura-no-ame", "secret-police", "rolling-girl", "intense-voice"],
-            "songNames": ["Melt", "The World is Mine", "Sakura no Ame", "Secret Police", "Rolling Girl", "Intense Voice"],
+            "songDatas": ["melt", "world-is-mine", "sakura-no-ame", "romeo-and-cinderella", "rolling-girl", "intense-voice"],
+            "songNames": ["Melt", "The World is Mine", "Sakura no Ame", "Romeo and Cinderella", "Rolling Girl", "Intense Voice"],
 	    "diffs": [["EASY", "NORMAL", "HARD", "EXTREME"]],
             "weekNumber": 39,
-            "characterIcons": ["album-melt", "album-worldismine", "album-sakuranoame", "album-secretpolice", "album-rollinggirl", "album-intensevoice"]
+            "characterIcons": ["album-melt", "album-worldismine", "album-sakuranoame", "album-romeoandcinderella", "album-rollinggirl", "album-intensevoice"]
         },
         {
-            "songDatas": ["love-is-war", "romeo-and-cinderella", "secret-garden", "disappearance"],
-            "songNames": ["Love Is War", "Romeo and Cinderella", "The secret garden", "Disappearance"],
+            "songDatas": ["love-is-war", "secret-police", "secret-garden", "disappearance"],
+            "songNames": ["Love Is War", "Secret Police", "The secret garden", "Disappearance"],
 	    "diffs": [["EASY", "NORMAL", "HARD", "EXTREME"]],
             "weekNumber": 42,
-            "characterIcons": ["album-loveiswar", "album-romeoandcinderella", "album-secretgarden", "album-disappearance"]
+            "characterIcons": ["album-loveiswar", "album-secretpolice", "album-secretgarden", "album-disappearance"]
         }
     ]
 } 
