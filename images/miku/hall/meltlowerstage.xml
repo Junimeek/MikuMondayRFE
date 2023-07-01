@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="meltlowerstage.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="lowerstage_rainbow10000" x="0" y="0" width="1985" height="328"/>
+	<SubTexture name="lowerstage_rainbow20000" x="1985" y="0" width="1985" height="328"/>
+	<SubTexture name="lowerstage_rainbow30000" x="0" y="328" width="1985" height="328"/>
+	<SubTexture name="lowerstage_rainbow40000" x="1985" y="328" width="1985" height="328"/>
+	<SubTexture name="lowerstage_rainbow50000" x="0" y="656" width="1985" height="328"/>
+	<SubTexture name="lowerstage_rainbow60000" x="1985" y="656" width="1985" height="328"/>
+	<SubTexture name="lowerstage_rainbow70000" x="0" y="984" width="1985" height="328"/>
+	<SubTexture name="lowerstage_static0000" x="1985" y="984" width="1985" height="328"/>
+</TextureAtlas>

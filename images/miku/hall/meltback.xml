@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="meltback.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="stageback_rainbow10000" x="0" y="0" width="627" height="631"/>
+	<SubTexture name="stageback_rainbow20000" x="627" y="0" width="627" height="631"/>
+	<SubTexture name="stageback_rainbow30000" x="1254" y="0" width="627" height="631"/>
+	<SubTexture name="stageback_rainbow40000" x="0" y="631" width="627" height="631"/>
+	<SubTexture name="stageback_rainbow50000" x="627" y="631" width="627" height="631"/>
+	<SubTexture name="stageback_rainbow60000" x="1254" y="631" width="627" height="631"/>
+	<SubTexture name="stageback_rainbow70000" x="0" y="1262" width="627" height="631"/>
+	<SubTexture name="stageback_static0000" x="627" y="1262" width="627" height="631"/>
+</TextureAtlas>
