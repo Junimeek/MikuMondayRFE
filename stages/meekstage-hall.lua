@@ -116,10 +116,10 @@ end
 local speedmod = 19
 
 function stepHit()
-    if curStep == 1016 then
+    if curStep == 1000 then
         playSpriteAnimation("kisekileft", "rainbow", true)
         playSpriteAnimation("kisekiright", "rainbow", true)
-    elseif curStep == 1023 then
+    elseif curStep == 1007 then
         playSpriteAnimation("kisekileft", "rainbow", true)
         playSpriteAnimation("kisekiright", "rainbow", true)
         performSpriteXTween("movebackingleft", "backingleft", -1475, speedmod)
@@ -130,30 +130,24 @@ function stepHit()
 
     if curStep == 1 then
         performSpriteAlphaTween("slowout", "white", 0, 2)
-    elseif curStep == 1312 then
+    elseif curStep == 1296 then
         setSpriteAlpha("white", 0.9)
         setSpriteAlpha("stageback", 0.80)
         setSpriteAlpha("lowerstage", 0.83)
-    elseif curStep == 1313 then
+    elseif curStep == 1297 then
         performSpriteAlphaTween("midout", "white", 0, 1.4)
     end
 
-    if curStep == 128 then
+    if curStep == 112 then
         performSpriteAlphaTween("titlefadein", "melt", 1, 1)
-    elseif curStep == 158 then
+    elseif curStep == 142 then
         performSpriteAlphaTween("titlefadeout", "melt", 0, 0.2)
-    elseif curStep == 164 then
+    elseif curStep == 148 then
         destroySprite("melt")
     end
 
-    if curStep == 400 or curStep == 528 or curStep == 1152 or curStep == 1756 then
+    if curStep == 384 or curStep == 512 or curStep == 1136 or curStep == 1748 then
         playActorAnimation("boyfriend", "hey")
-    end
-
-    if curStep == 1312 or curStep == 1793 then
-        setActorSpeed("girlfriend", 2)
-    elseif curStep == 1345 then
-        setActorSpeed("girlfriend", 1)
     end
 end
 
@@ -186,7 +180,7 @@ function AddStageAnimations()
 end
 
 function beatHit()
-    if curBeat >= 328 and curBeat < 432 then
+    if curBeat >= 324 and curBeat < 432 then
         if curBeat % 2 == 0 then
             AdvanceColors()
         end
