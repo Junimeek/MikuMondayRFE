@@ -4,16 +4,38 @@
 	<!-- http://www.adobe.com/products/animate.html -->
 	<SubTexture name="rainbow_static0000" x="0" y="0" width="173" height="1259"/>
 	<SubTexture name="rainbow_transition0000" x="0" y="0" width="173" height="1259"/>
-	<SubTexture name="rainbow_transition0001" x="173" y="0" width="173" height="1259"/>
-	<SubTexture name="rainbow_transition0002" x="346" y="0" width="173" height="1259"/>
-	<SubTexture name="rainbow_transition0003" x="519" y="0" width="173" height="1259"/>
-	<SubTexture name="rainbow_transition0004" x="692" y="0" width="173" height="1259"/>
-	<SubTexture name="rainbow_transition0005" x="865" y="0" width="173" height="1259"/>
-	<SubTexture name="rainbow_transition0006" x="1038" y="0" width="173" height="1259"/>
-	<SubTexture name="rainbow_transition0007" x="1211" y="0" width="173" height="1259"/>
-	<SubTexture name="rainbow_transition0008" x="1384" y="0" width="173" height="1259"/>
-	<SubTexture name="rainbow_transition0009" x="1557" y="0" width="173" height="1259"/>
-	<SubTexture name="rainbow_transition0010" x="1557" y="0" width="173" height="1259"/>
-	<SubTexture name="rainbow_transition0011" x="1557" y="0" width="173" height="1259"/>
-	<SubTexture name="rainbow_transition0012" x="1557" y="0" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0001" x="0" y="1259" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0002" x="0" y="2518" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0003" x="173" y="0" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0004" x="173" y="1259" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0005" x="173" y="2518" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0006" x="346" y="0" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0007" x="346" y="1259" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0008" x="346" y="2518" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0009" x="519" y="0" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0010" x="519" y="1259" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0011" x="519" y="2518" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0012" x="692" y="0" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0013" x="692" y="1259" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0014" x="692" y="2518" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0015" x="865" y="0" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0016" x="865" y="1259" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0017" x="865" y="2518" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0018" x="1038" y="0" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0019" x="1038" y="1259" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0020" x="1038" y="2518" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0021" x="1211" y="0" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0022" x="1211" y="1259" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0023" x="1211" y="2518" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0024" x="1211" y="2518" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0025" x="1211" y="2518" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0026" x="1211" y="2518" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0027" x="1211" y="2518" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0028" x="1211" y="2518" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0029" x="1211" y="2518" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0030" x="1211" y="2518" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0031" x="1211" y="2518" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0032" x="1211" y="2518" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0033" x="1211" y="2518" width="173" height="1259"/>
+	<SubTexture name="rainbow_transition0034" x="1211" y="2518" width="173" height="1259"/>
 </TextureAtlas>
